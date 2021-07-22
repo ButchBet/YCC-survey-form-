@@ -1,0 +1,7 @@
+body{
+    --happy-color: linear-gradient(#ffd800, #febd00, #febd00, #fe9800, #fe9800);
+    --no-expresion-color: linear-gradient(#ffa38d, #fe8b8b, #fe7389, #fe5a87, #fd3f84);
+    --crying-color: linear-gradient(#02beff, #14a8ff, #2b8bff, #3e75ff, #5459ff);
+    --yummy-color: linear-gradient(#95fcab, #6ae7a7, #3ad0a2, #1ec39f, #05b79d);;
+    --angry-color: linear-gradient(#fd7fff, #ed72ff, #dc64ff, #dc64ff, #a93aff);
+}
