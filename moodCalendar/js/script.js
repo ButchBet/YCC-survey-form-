@@ -41,7 +41,7 @@ function typeEvent(event){
             document.querySelector(".noExpresion").classList.remove("changed");
 
             document.querySelector(".angry").src = "./icons/angry1.svg";
-            document.querySelector(".noExpresion").classList.remove("changed");
+            document.querySelector(".angry").classList.remove("changed");
 
 
             // Search the individual icon
@@ -61,7 +61,21 @@ function typeEvent(event){
             event.toElement.classList.add("changed");
         }
     }
-    console.log(event.toElement);
+    // Now if the user click one avaliable day 
+    else if(event.toElement.classList.contains("tableDays")){
+        let background = "inherit";
+
+        // Check if the icons has been selected 
+        document.querySelectorAll(".version1").forEach((element) =>{
+            if(element.classList.contains("changed")){
+                // change backgound ass the id that saves the css var linear-gradient 
+                background = element.id;
+            }
+        })
+
+        // Change the background of the clicked dayNumber
+        event.toElement.style.background = background;
+    }
 }
 
 // COMENTS

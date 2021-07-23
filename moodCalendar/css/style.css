@@ -14,7 +14,7 @@ body{
     --tertiary-color: #A1D6E2;
     --quaternary-color: #1995AD;
 
-    --border1: 1px;
+    --border1: 5px;
 
     background: var(--primary-color);
 
@@ -41,12 +41,12 @@ body{
     
 }
 
-header, main, .mainContent div{
+header, main, .mainContent > div{
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.488);
+    border-radius: var(--border1);
 }
 
 header{
-    border-radius: var(--border1);
     width: 100%;
     height: 15%;
     font-size: large;
@@ -88,7 +88,6 @@ header >*, main >*{
 main{
     flex-direction: column;
     flex-wrap: wrap;
-    border-radius: var(--border1);
     gap: 1rem;
     padding: 1rem;
 }
@@ -113,7 +112,6 @@ main{
     justify-content: space-evenly;
     gap: 2rem 0;
 }
-
 .monthName{
     flex-direction: row;
     flex-wrap: wrap;
@@ -122,7 +120,14 @@ main{
     background: var(--tertiary-color);
 }
 
-* td{
+.tableDays{
     cursor: pointer;
+    text-align: center;
+    border-radius: 100%;
 }
-* th:hover
+.festival{
+    color: var(--secondary-color)
+}
+.holiday{
+    color: var(--quaternary-color)
+}
