@@ -1,0 +1,10 @@
+{
+    "name" : "Ivysaur",
+    "sprite" : "https://static.wikia.nocookie.net/pokemon/images/b/b0/002.png/revision/latest/scale-to-width-down/32?cb=20131102213458",
+    "type" : [
+        {
+            "type1" : "Water",
+            "type2" : "Poison"
+        }],
+    "url" : "https://pokemon.fandom.com/wiki/Ivysaur"
+}

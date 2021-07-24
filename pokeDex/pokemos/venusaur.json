@@ -1,0 +1,10 @@
+{
+    "name" : "Venusaur",
+    "sprite" : "https://static.wikia.nocookie.net/pokemon/images/b/b0/003.png/revision/latest/scale-to-width-down/43?cb=20191122000217",
+    "type" : [
+        {
+            "type1" : "Grass",
+            "type2" : "Pison"
+        }],
+    "url" : "https://pokemon.fandom.com/wiki/Venusaur"
+}

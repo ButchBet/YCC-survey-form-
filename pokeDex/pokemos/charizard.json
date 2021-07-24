@@ -1,0 +1,10 @@
+{
+    "name" : "Charizard",
+    "sprite" : "https://static.wikia.nocookie.net/pokemon/images/1/18/006.png/revision/latest/scale-to-width-down/44?cb=20191122000318",
+    "type" : [
+        {
+            "type1" : "Fire",
+            "type2" : "Fying"
+        }],
+    "url" : "https://pokemon.fandom.com/wiki/Charizard"
+}
