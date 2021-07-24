@@ -1,10 +1,11 @@
 {
     "name" : "Blastoise",
-    "sprite" : "https://static.wikia.nocookie.net/pokemon/images/d/d2/009.png/revision/latest/scale-to-width-down/34?cb=20191122000510",
+    "sprite" : "../img/009.png",
     "type" : [
         {
             "type1" : "Water",
             "type2" : ""
         }],
-    "url" : "https://pokemon.fandom.com/wiki/Blastoise"
+    "url" : "https://pokemon.fandom.com/wiki/Blastoise",
+    "number" : "009"
 }

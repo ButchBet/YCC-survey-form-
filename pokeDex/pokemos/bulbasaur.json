@@ -1,10 +1,11 @@
 {
     "name" : "Bulbasaur",
-    "sprite" : "https://static.wikia.nocookie.net/pokemon/images/0/03/001.png/revision/latest/scale-to-width-down/32?cb=20131102213407",
+    "sprite" : "../img/001.png",
     "type" : [
         {
             "type1" : "Grass",
-            "type2" : "Pison"
+            "type2" : "Poison"
         }],
-    "url" : "https://pokemon.fandom.com/wiki/Bulbasaur"
+    "url" : "https://pokemon.fandom.com/wiki/Bulbasaur",
+    "number" : "001"
 }

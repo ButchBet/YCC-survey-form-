@@ -1,10 +1,11 @@
 {
     "name" : "Charmander",
-    "sprite" : "https://static.wikia.nocookie.net/pokemon/images/d/d5/004.png/revision/latest/scale-to-width-down/32?cb=20131102213739",
+    "sprite" : "../img/004.png",
     "type" : [
         {
             "type1" : "Fire",
             "type2" : ""
         }],
-    "url" : "https://pokemon.fandom.com/wiki/Charmander"
+    "url" : "https://pokemon.fandom.com/wiki/Charmander",
+    "number" : "004"
 }
