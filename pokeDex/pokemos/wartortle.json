@@ -1,0 +1,10 @@
+{
+    "name" : "Wartortle",
+    "sprite" : "https://static.wikia.nocookie.net/pokemon/images/1/17/008.png/revision/latest/scale-to-width-down/32?cb=20131102220416",
+    "type" : [
+        {
+            "type1" : "Water",
+            "type2" : ""
+        }],
+    "url" : "https://pokemon.fandom.com/wiki/Wartortle"
+}

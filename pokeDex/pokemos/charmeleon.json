@@ -1,0 +1,10 @@
+{
+    "name" : "Charmaleon",
+    "sprite" : "https://static.wikia.nocookie.net/pokemon/images/2/20/005.png/revision/latest/scale-to-width-down/32?cb=20131102213858",
+    "type" : [
+        {
+            "type1" : "Fire",
+            "type2" : ""
+        }],
+    "url" : "https://pokemon.fandom.com/wiki/Charmeleon"
+}
