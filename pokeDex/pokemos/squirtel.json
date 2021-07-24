@@ -1,10 +1,11 @@
 {
     "name" : "Squirtel",
-    "sprite" : "https://static.wikia.nocookie.net/pokemon/images/e/e8/007.png/revision/latest/scale-to-width-down/32?cb=20131102220349",
+    "sprite" : "../img/007.png",
     "type" : [
         {
             "type1" : "Water",
             "type2" : ""
         }],
-    "url" : "https://pokemon.fandom.com/wiki/Squirtle"
+    "url" : "https://pokemon.fandom.com/wiki/Squirtle",
+    "number" : "007"
 }
