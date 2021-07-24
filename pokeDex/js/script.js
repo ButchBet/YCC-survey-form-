@@ -40,7 +40,11 @@ pokAddress.forEach(elemenet => {
         type.classList.add("types")
         // types
         for(key in value.type[0]) {
-            type.innerHTML += `<span>${value.type[0][key]}</span> `;
+            if(value.type[0][key] == "") {
+                break;
+            }else {
+                type.innerHTML += `<span>${value.type[0][key]}</span> `;
+            }
         }
 
         const a = document.createElement("a");

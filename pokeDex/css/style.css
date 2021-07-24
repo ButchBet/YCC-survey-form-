@@ -67,3 +67,8 @@ body {
     transform: scale(1.09);
 }
 
+span {
+    border-radius: 6px;
+    padding: 2px;
+    background: var(--second-color);
+}
