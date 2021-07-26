@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap');
+
+
+body {
+    --name-font: 'Crimson Text', serif;
+    --list-font: 'Crimson Text', serif;
+
+    --black-colo: black;
+    --white-color: white;
+    --grey-color: grey;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    font-family: var(--list-font);
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 45rem;
+    min-width: 320px;
+    box-shadow: 1px 1px 10px var(--grey-color);
+}
+
+.subcontainer {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.subSubContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    overflow: visible;
+}
+
+.sSub1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.title {
+    color: var(--grey-color);
+    height: 12rem;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    font-family: 'Crimson Text';
+}
+
+.title h2 {
+    font-size: 50px;
+    font-weight: 10;
+}
+
+.title h2:first-of-type {
+    color: black;
+}
+
+.subSubContainer > * {
+    margin: 0;
+    letter-spacing: .1em;
+}
+
+.subSubContainer img {
+    cursor: pointer;
+}
+
+.subSubContainer img:hover {
+    opacity: .9;
+}
+
+.subSubContainer img:active {
+    border-radius: 3px;
+    transform: scale(.99);
+}
+
+.firstLastRem {
+    height: 4em;
+}
+
+.middelRem {
+    height: 12rem;
+}
+
+.colorGray {
+    background: var(--grey-color);
+}
+
+.colorWhite {
+    background: var(--white-color);
+}
+
+.subSubContainer img{
+    width: 23rem;
+    height: 12rem;
+}
+
+.sSub12 img {
+    height: 12rem;
+    width: calc(100% - .1rem);
+}
+
+.sSub13 img {
+    height: 192px;
+}
+
+.sSub15 {
+    text-align: center;
+}
+
+/* .susSubContainerImg {
+
+} */
+
+
+
+@media screen and (max-width: 848px) {
+    .subSubContainer {
+        width: 100%;
+    }
+    .container {
+        flex-direction: column;
+    }
+}
