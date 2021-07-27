@@ -20,6 +20,8 @@ body {
 .container {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
     width: 45rem;
     min-width: 320px;
     box-shadow: 1px 1px 10px var(--grey-color);
@@ -41,7 +43,6 @@ body {
 }
 
 .sSub1 {
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -134,4 +135,50 @@ body {
     .container {
         flex-direction: column;
     }
+}
+
+.hidden {
+    display: none;
+}
+.opac {
+    opacity: .5;
+}
+
+
+.button, .list {
+    display: flex;
+    width: 45rem;
+}
+
+.button {
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+.panel {
+    position: absolute;
+}
+.panelButton {
+    border: none;
+}
+
+.panelButton:hover {
+    color: var(--white-color);
+    background: red;
+}
+
+.panelButton:active {
+    transform: scale(.95);
+}
+
+.list {
+    flex-flow: column;
+    list-style: none;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 0;
+}
+
+.lastMod {
+    margin-bottom: 1rem;
 }
