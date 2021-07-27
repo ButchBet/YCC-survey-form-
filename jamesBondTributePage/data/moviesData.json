@@ -1,0 +1,42 @@
+{
+    "DanielCraig" : [
+        "spectre", 
+        "Skyfall",
+        "Quantum of solace",
+        "Casino Royale"],
+
+    "PierceBranson" : [
+        "Die another day",
+        "The world is not enough",
+        "Tomorrow never dies",
+        "Goldeneye"
+    ],
+
+    "TimothyDalton" : [
+        "License to kill",
+        "The living daylight"
+    ],
+
+    "RogerMoore" : [
+        "A view of kill",
+        "Octopussy",
+        "For your eyes only",
+        "Moonraker",
+        "The skype who loved me",
+        "The man with the golden gun",
+        "live and let live"
+    ],
+
+    "GeorgeLazenby" : [
+        "On her majesty's secret service"
+    ],
+    
+    "SeanConnery" : [
+        "Diamonds are forever",
+        "You only live twice",
+        "Thunderball",
+        "Goldfinger",
+        "From russia with love",
+        "Dr. no"
+    ]
+}
