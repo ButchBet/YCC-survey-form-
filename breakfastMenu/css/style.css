@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body {
+    --first-color: rgba(174, 174, 174, 0.769);
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    width: 40rem;
+    border: .1px solid var(--first-color);
+    padding: .5em;
+}
+
+.container > * {
+    width: 100%;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.menuPageChange {
+    height: 3rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 3.5rem 0;
+}
+
+.changeButton {
+    height: 100%;
+}
+
+.changeText {
+    font-weight: bold;
+}
+
+.visualContent {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: .3rem;
+}
+
+.visualContent img {
+    width: 93%;
+}
+
+
+.chageButtons
+, .changeButton {
+    border-radius: 2px;
+    border: none;
+    background: var(--first-color);
+} 
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.getButton {
+    cursor: pointer;
+    background: orange;
+    border-radius: 100px;
+    border: none;
+    box-shadow: .1px 1px 3px black;
+    letter-spacing: .1em;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    padding: .5em 2em;
+    margin: 3rem 0;
+}
+
+.changeButton {
+    margin: 0 0 1rem 0;
+}  
+
+.getButton:active
+, .changeButton:active
+, .chageButtons:active
+{
+    transform: scale(.95);
+}
+
+.chageButtons:hover, .changeButton:hover {
+    opacity: .8;
+}
+
+@media screen and (max-width: 429px) {
+    .textContent {
+        font-size: 1rem;
+    }
+
+    .visualContent {
+        flex-flow: column nowrap;
+    }
+    .visualContent > *, .visualContent img  {
+        width: 100%;
+    }    
+}
+
+@media screen and (min-width: 430px) and (max-width: 790px) {
+    .textContent {
+        font-size: 1.5rem;
+    }
+
+    .visualContent {
+        flex-flow: column nowrap;
+    }
+    .visualContent > *, .visualContent img  {
+        width: 100%;
+    }    
+}
+
+

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<breakfatsMenu>
+    <food>
+        <name>Belgian Waffles</name>
+        <price>5.95</price>
+        <description>Tow of ur famous Belgian Waffles with plenty of real
+            maple syrup
+        </description>
+        <image>
+            <img1>../img/belgianWaffles1jpg</img1>
+            <img2>../img/belgianWaffles2jpg</img2>
+            <img3>../img/belgianWaffles3jpg</img3>
+            <img4>../img/belgianWaffles4jpg</img4>
+            <img5>../img/belgianWaffles5jpg</img5>
+        </image>
+        <calories>650</calories>
+    </food>
+
+    <food>
+        <name>Strawberry Belgian Waffle</name>
+        <price>7.95</price>
+        <description>
+            Light Belgian Waffles covered with strawberries and whipped cream
+        </description>
+        <image>
+            <img1>../img/strawberryBelgianWaffle1</img1>
+            <img2>../img/strawberryBelgianWaffle2</img2>
+            <img3>../img/strawberryBelgianWaffle3</img3>
+            <img4>../img/strawberryBelgianWaffle4</img4>
+            <img5>../img/strawberryBelgianWaffle5</img5>
+        </image>
+        <calories>900</calories>
+    </food>
+
+    <food>
+        <name>Berry-Berry Belgian Waffles</name>
+        <price>8.95</price>
+        <description>
+            Belgian Waffles covered with assorted fresh berries and whipped cream
+        </description>
+        <image>
+            <img1>../img/berryBerryBelgianWaffles1</img1>
+            <img2>../img/berryBerryBelgianWaffles2</img2>
+            <img3>../img/berryBerryBelgianWaffles3</img3>
+            <img4>../img/berryBerryBelgianWaffles4</img4>
+            <img5>../img/berryBerryBelgianWaffles5</img5>
+        </image>
+        <calories>900</calories>
+    </food>
+
+    <food>
+        <name>French Toast</name>
+        <price>4.50</price>
+        <description>
+            Thick slices made from our homemade sourdough bread
+        </description>
+        <image>
+            <img1>../img/frenchToast1</img1>
+            <img2>../img/frenchToast2</img2>
+            <img3>../img/frenchToast3</img3>
+            <img4>../img/frenchToast4</img4>
+            <img5>../img/frenchToast5</img5>
+        </image>
+        <calories>600</calories>
+    </food>
+
+    <food>
+        <name>Homestyle Breakfast</name>
+        <price>6.95</price>
+        <description>
+            Two eggs, bacon or sausage, toast, and our ever-popular hash browns
+        </description>
+        <image>
+            <img1>../img/homestyleBreakfast1</img1>
+            <img2>../img/homestyleBreakfast2</img2>
+            <img3>../img/homestyleBreakfast3</img3>
+            <img4>../img/homestyleBreakfast4</img4>
+            <img5>../img/homestyleBreakfast5</img5>
+        </image>
+        <calories>950</calories>
+    </food>
+</breakfatsMenu>
