@@ -30,9 +30,9 @@ document.addEventListener("DOMContentLoaded", () =>{
       }
     })
     .then(data => {
-      alert("Data: " + data);
+      console.log("Data: " + data);
     })
     .catch(err => {
-      alert(err);
+      console.error(err);
     });
   }

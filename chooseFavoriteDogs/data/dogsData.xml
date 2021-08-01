@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dogs>
+    <dog id="aurora">
+        <name>Aurora</name>
+        <age>5</age>
+        <color>Light brown with marked dark brown figures</color>
+        <link>images/modifited/Aurora.jpg<link>
+        <counterN>0</counterN>
+        <counterP>0</counterP>
+    <dog>
+
+    <dog id="doffy">
+        <name>Doffy</name>
+        <age>2</age>
+        <color>Withe  with light and dark brown figure at the head</color>
+        <link>images/modifited/Doffy.jpg<link>
+        <counterN>0</counterN>
+        <counterP>0</counterP>
+    <dog>
+
+    <dog id="kira">
+        <name>Kira</name>
+        <age>2</age>
+        <color>Bown</color>
+        <link>images/modifited/Kira.jpg<link>
+        <counterN>0</counterN>
+        <counterP>0</counterP>
+    <dog>
+
+    <dog id="market">
+        <name>Market</name>
+        <age>2</age>
+        <color>Brown</color>
+        <link>images/modifited/Market.jpg<link>
+        <counterN>0</counterN>
+        <counterP>0</counterP>
+    <dog>
+
+    <dog id="maya">
+        <name>Maya</name>
+        <age>2</age>
+        <color>White dalmata patherns</color>
+        <link>images/modifited/Maya.jpg<link>
+        <counterN>0</counterN>
+        <counterP>0</counterP>
+    <dog>
+
+    <dog id="pickel">
+        <name>Pickel</name>
+        <age>1</age>
+        <color>See Mr.Pickel</color>
+        <link>images/modifited/Pickel.jpg<link>
+        <counterN>0</counterN>
+        <counterP>0</counterP>
+    <dog>
+
+    <dog id="richard">
+        <name>Richard</name>
+        <age>1</age>
+        <color>Black and white</color>
+        <link>images/modifited/Richard.jpg<link>
+        <counterN>0</counterN>
+        <counterP>0</counterP>
+    <dog>
+
+    <dog id="rocky">
+        <name>Rocky</name>
+        <age>.5</age>
+        <color>Black</color>
+        <link>images/modifited/Rocky.jpg<link>
+        <counterN>0</counterN>
+        <counterP>0</counterP>
+    <dog>
+
+    <dog id="roland">
+        <name>Roland</name>
+        <age>1</age>
+        <color>Brown</color>
+        <link>images/modifited/Roland.jpg<link>
+        <counterN>0</counterN>
+        <counterP>0</counterP>
+    <dog>
+
+    <dog id="silver">
+        <name>Silver</name>
+        <age>.5</age>
+        <color>Light brown</color>
+        <link>images/modifited/Silver.jpg<link>
+        <counterN>0</counterN>
+        <counterP>0</counterP>
+    <dog>
+</dogs>

@@ -21,8 +21,7 @@ body {
   box-shadow: 1px 1px 9px var(--dark-color);
   border-radius: 2px;
   padding: 0.5rem;
-  width: 40rem;
-  min-width: 20px;
+  width: 50rem;
 }
 .container1 {
   display: flex;
@@ -114,3 +113,8 @@ video {
   display: none;
 }
 
+@media screen and (max-width: 670px) {
+  .container {
+    width: 100%;
+  }
+}
