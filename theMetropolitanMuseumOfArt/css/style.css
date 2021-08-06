@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100;200&display=swap');
+
+body, 
+.ring,
+#container2,
+.leave, 
+.leave button,
+.subContainer,
+.subContainer .button,
+.button a 
+{
+    display: flex;
+}
+
+body {
+    font-family: 'Hahmlet', serif;
+    flex-flow: row wrap;
+}
+
+body,
+.leave button,
+.subContainer .button,
+.button a 
+{
+    justify-content: center;
+    align-content: center;
+}
+
+html, body, .ring {
+    width:100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    user-select: none;
+}
+
+.container {
+    width: 70%;
+    height: 400px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.324);
+}
+
+.ring {
+    flex-flow: row;
+    gap: 1em;
+    overflow: scroll hidden;
+}
+
+.img > * {
+    height: 100%;
+    cursor: pointer;
+}
+
+.img > *:hover {
+    opacity: .50;
+}
+
+#container2 {
+    flex-flow: column;
+    
+    width: 30%;
+    height: 100%;
+    display: none;
+}
+
+.leave {
+    flex-flow: wrap;
+    justify-content: flex-end;
+}
+
+.leave button,
+.button a {
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.leave button {
+    flex-flow: row wrap;
+    border: none;
+    background-color: gray;
+    width: 3em;
+    height: 2em;
+    border-radius: 0;
+}
+
+.leave button:hover, 
+.button a:hover 
+{
+    color: white;
+    background-color: red;
+}
+
+.subContainer {
+    flex-flow: column wrap;
+    gap: 1em;
+    padding: 1em;
+}
+
+.subContainer h1 {
+    align-self: center;
+}
+
+.subContainer .button {
+    height: 9em;
+    flex-flow: row wrap;
+}
+
+.button a {
+    flex-flow: wrap;
+    background-color: gray;
+    width: 6em;
+    height: 3em;
+    border: none;
+    text-decoration: none;
+    color: black;
+}
+
+.container a:active{
+    transform: scale(.96);
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 670px) {
+    .container, #container2 {
+        width: 96%;
+        height: 96%;
+    }
+}
+
+@media screen and (orientation: landscape) {
+   #container2 {
+       position: absolute;
+       height: 41em;
+   }
+}
